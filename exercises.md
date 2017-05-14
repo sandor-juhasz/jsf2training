@@ -12,4 +12,8 @@
    be focused. The application should display a custom error message
    if the form is submitted with an empty value.
 
-
+3. Create a JSF application called "navigationdemo". The application
+   has three pages: a.xhtml, b.xhtml, c.xhtml with a header and a
+   button labeled "Next". When the user presses the button, 50% of the
+   time the application should navigate to the next page (a.xhtml ->
+   b.xhtml -> c.xhtml -> finish.xhtml) or to the fail.xhtml otherwise.
